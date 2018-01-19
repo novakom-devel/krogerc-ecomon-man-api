@@ -1,0 +1,25 @@
+{
+    "title": "Криворізький ресурсний центр",
+    "tagline": "Опис процесу імпорту інформації від керуючої компанії до розділу Житловий Фонд.",
+    "author": "Halik Yuriy (y@novakom.com.ua)",
+    "timezone": "Europe/Kiev",
+    "image" : "logo.png",
+    "live": {
+        "inherit_index": true,
+        "clean_urls": true
+    },
+    "html": {
+        "theme": "daux-blue",
+        "breadcrumbs": true,
+        "breadcrumb_separator": "Chevrons",
+        "toggle_code": false,
+        "date_modified": true,
+        "float": false,
+        "search": true,
+        "google_analytics": "",
+        "links": {
+            "Ресурсний центр": "https://krogerc.info/"
+        },
+        "auto_landing": false
+    }
+}
