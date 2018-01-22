@@ -69,6 +69,7 @@
         <div class="Columns__right__content">
             <div class="doc_content">
                 <?= $this->section('content'); ?>
+                <footer><hr/>Версія документації: <?php include(@realpath(__DIR__.'/../partials/rev.php'))?></footer>
             </div>
         </div>
     </div>

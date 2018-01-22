@@ -47,7 +47,6 @@
 </head>
 <body class="<?= $params['html']['float'] ? 'with-float' : ''; ?> <?= $this->section('classes'); ?>">
     <?= $this->section('content'); ?>
-
     <?php
     if ($params['html']['google_analytics']) {
         $this->insert('theme::partials/google_analytics', ['analytics' => $params['html']['google_analytics'], 'host' => array_key_exists('host', $params) ? $params['host'] : '']);

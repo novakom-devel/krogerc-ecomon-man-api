@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 .idea
 /sftp-config.json
+composer.lock
 static
 
 /vendor

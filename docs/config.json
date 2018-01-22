@@ -1,5 +1,5 @@
 {
-    "title": "Криворізький ресурсний центр",
+    "title": "«Екомоніторинг» REST API",
     "tagline": "Опис процесу імпорту інформації від керуючої компанії до розділу Житловий Фонд.",
     "author": "Halik Yuriy (y@novakom.com.ua)",
     "timezone": "Europe/Kiev",
@@ -18,7 +18,8 @@
         "search": true,
         "google_analytics": "",
         "links": {
-            "Ресурсний центр": "https://krogerc.info/"
+            "Криворізький ресурсний центр": "https://krmisto.gov.ua/",
+            "Модуль «Екомоніторинг»": "https://krmisto.gov.ua/ua/rc/ecomon/default/index.html"
         },
         "auto_landing": false
     }
