@@ -96,7 +96,7 @@
 Припустимо, що виконуємо запит даних протягом однієї години, починаючи з 2018.01.01 00:00.
 Запит:
 ```BASH
-curl -H "Content-Type: application/json" -X POST --data '{"token": "xxxxxxxxxxxxxxxxxxxx", "pan_num": 1, "dt_from": "2018-01-01T00:00:00+02:00", "dt_to": "2018-01-01T00:10:00+02:00" }' "http://example.com/data-hour"
+curl -H "Content-Type: application/json" -X POST --data '{"token": "xxxxxxxxxxxxxxxxxxxx", "pan_num": 1, "dt_from": "2018-01-01T00:00:00+02:00", "dt_to": "2018-01-01T02:10:00+02:00" }' "http://example.com/data-hour"
 ```
 відповідь:
 ```JSON

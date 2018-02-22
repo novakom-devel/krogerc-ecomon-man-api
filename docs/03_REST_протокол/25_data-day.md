@@ -82,7 +82,7 @@
 Припустимо, що виконуємо запит даних протягом двох діб, починаючи з 2018.01.01 00:00.
 Запит:
 ```BASH
-curl -H "Content-Type: application/json" -X POST --data '{"token": "xxxxxxxxxxxxxxxxxxxx", "pan_num": 1, "dt_from": "2018-01-01T00:00:00+02:00", "dt_to": "2018-01-02T00:00:00+02:00" }' "http://example.com/data-day"
+curl -H "Content-Type: application/json" -X POST --data '{"token": "xxxxxxxxxxxxxxxxxxxx", "pan_num": 1, "dt_from": "2018-01-01T00:00:00+02:00", "dt_to": "2018-01-03T00:00:00+02:00" }' "http://example.com/data-day"
 ```
 відповідь:
 ```JSON
