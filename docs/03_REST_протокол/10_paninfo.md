@@ -23,7 +23,7 @@
 
 ### Дані, що відправляють 
 ```JSON
-  { "toke": "xxxxxxxxxxxxxxxxxxxx"}
+  { "token": "xxxxxxxxxxxxxxxxxxxx"}
 ```
 
 ### Дані, що отримують
